@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": "eslint-config-airbnb",
+  "plugins": ["react"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+  },
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "defaultParams": true,
+    "destructuring": true,
+    "forOf": true,
+    "generators": true,
+    "modules": true,
+    "objectLiteralComputedProperties": true,
+    "objectLiteralDuplicateProperties": false,
+    "objectLiteralShorthandMethods": true,
+    "objectLiteralShorthandProperties": true,
+    "spread": true,
+    "superInFunctions": true,
+    "templateStrings": true,
+    "jsx": true,
+    "experimentalObjectRestSpread": true
+  }
+}
